@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/changjunpark-colosseum/my-knowledge-base/schemas/document.schema.json",
+  "title": "Knowledge Document Frontmatter",
+  "type": "object",
+  "required": ["id", "title", "type", "status", "scope", "tags", "priority", "updated"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": ["principle", "adr", "guide", "checklist", "note"]
+    },
+    "status": {
+      "enum": ["draft", "accepted", "deprecated"]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "priority": {
+      "enum": ["low", "medium", "high"]
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "applies_to": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": true
+}
+

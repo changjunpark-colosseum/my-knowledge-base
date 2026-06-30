@@ -1,3 +1,15 @@
+---
+id: adr-001-frontend-e2e
+title: 프론트엔드 E2E 테스트 도입
+type: adr
+status: accepted
+scope: frontend-testing
+tags: [adr, playwright, e2e, qa, regression]
+priority: high
+updated: 2026-06-30
+applies_to: [frontend, cgkr_oncall]
+---
+
 # [ADR-001] 프론트엔드 E2E 테스트 도입
 
 | 항목 | 내용 |

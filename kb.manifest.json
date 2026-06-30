@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "name": "my-knowledge-base",
+  "description": "Reusable engineering SSOT for frontend architecture, testing, and implementation guidance.",
+  "updated": "2026-06-30",
+  "defaultInjection": {
+    "readFirst": [
+      "AGENTS.md",
+      "indexes/routing-index.md",
+      "indexes/summary-index.md"
+    ],
+    "strategy": "inject-index-only-read-ssot-on-demand"
+  },
+  "documents": [
+    {
+      "id": "frontend-state-management",
+      "title": "프론트엔드 상태관리 전략",
+      "path": "docs/roadmap/1-프론트엔드-상태관리-전략.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["react", "state", "architecture", "react-query", "url-state"],
+      "priority": "high",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-component-design",
+      "title": "프론트엔드 컴포넌트 설계 원칙",
+      "path": "docs/roadmap/2-프론트엔드-컴포넌트-설계-원칙.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["react", "component", "separation-of-concerns", "hooks", "api-boundary"],
+      "priority": "high",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-rendering-strategy",
+      "title": "프론트엔드 렌더링 전략",
+      "path": "docs/roadmap/3-프론트엔드-렌더링-전략.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["nextjs", "csr", "ssr", "ssg", "isr", "rendering"],
+      "priority": "medium",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-abstraction-level",
+      "title": "프론트엔드 추상화 레벨",
+      "path": "docs/roadmap/4-프론트엔드-추상화-레벨.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["abstraction", "refactoring", "naming", "domain-boundary"],
+      "priority": "high",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-error-handling",
+      "title": "프론트엔드 에러 핸들링 전략",
+      "path": "docs/roadmap/5-프론트엔드-에러-핸들링-전략.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["error-handling", "api", "zod", "react-query", "ui-feedback"],
+      "priority": "high",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-error-modeling",
+      "title": "프론트엔드 에러 모델링",
+      "path": "docs/roadmap/6-프론트엔드-에러-모델링.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["error-modeling", "domain-error", "use-case", "ui-feedback"],
+      "priority": "medium",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-design-patterns",
+      "title": "프론트엔드 디자인 패턴",
+      "path": "docs/roadmap/7-프론트엔드-디자인-패턴.md",
+      "type": "guide",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["design-pattern", "adapter", "mapper", "strategy", "decorator", "headless"],
+      "priority": "medium",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-use-effect-strategy",
+      "title": "프론트엔드 useEffect 사용 전략",
+      "path": "docs/roadmap/8-프론트엔드-useEffect-사용-전략.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["react", "use-effect", "side-effect", "derived-state"],
+      "priority": "high",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "frontend-react-hook-form",
+      "title": "프론트엔드 React Hook Form 사용 전략",
+      "path": "docs/roadmap/9-프론트엔드-React-Hook-Form-사용-전략.md",
+      "type": "principle",
+      "status": "accepted",
+      "scope": "frontend",
+      "tags": ["react-hook-form", "form", "validation", "serializer", "default-values"],
+      "priority": "high",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    },
+    {
+      "id": "adr-001-frontend-e2e",
+      "title": "프론트엔드 E2E 테스트 도입",
+      "path": "docs/ADR/[ADR-001] 프론트엔드 E2E 테스트 도입.md",
+      "type": "adr",
+      "status": "accepted",
+      "scope": "frontend-testing",
+      "tags": ["adr", "playwright", "e2e", "qa", "regression"],
+      "priority": "high",
+      "appliesTo": ["frontend", "cgkr_oncall"]
+    }
+  ]
+}
+

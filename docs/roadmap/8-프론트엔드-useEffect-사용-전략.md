@@ -1,3 +1,15 @@
+---
+id: frontend-use-effect-strategy
+title: 프론트엔드 useEffect 사용 전략
+type: principle
+status: accepted
+scope: frontend
+tags: [react, use-effect, side-effect, derived-state]
+priority: high
+updated: 2026-06-30
+applies_to: [frontend, cgkr_oncall]
+---
+
 # 8. 프론트엔드 useEffect 사용 전략
 
 ## 목적

@@ -1,0 +1,31 @@
+{
+  "react": [
+    "frontend-state-management",
+    "frontend-component-design",
+    "frontend-use-effect-strategy",
+    "frontend-react-hook-form"
+  ],
+  "state": ["frontend-state-management"],
+  "react-query": ["frontend-state-management", "frontend-error-handling"],
+  "url-state": ["frontend-state-management"],
+  "component": ["frontend-component-design"],
+  "separation-of-concerns": ["frontend-component-design"],
+  "abstraction": ["frontend-abstraction-level"],
+  "refactoring": ["frontend-abstraction-level", "frontend-design-patterns"],
+  "error-handling": ["frontend-error-handling"],
+  "error-modeling": ["frontend-error-modeling"],
+  "zod": ["frontend-error-handling"],
+  "design-pattern": ["frontend-design-patterns"],
+  "mapper": ["frontend-design-patterns"],
+  "adapter": ["frontend-design-patterns"],
+  "use-effect": ["frontend-use-effect-strategy"],
+  "side-effect": ["frontend-use-effect-strategy"],
+  "react-hook-form": ["frontend-react-hook-form"],
+  "form": ["frontend-react-hook-form", "frontend-state-management"],
+  "nextjs": ["frontend-rendering-strategy"],
+  "rendering": ["frontend-rendering-strategy"],
+  "playwright": ["adr-001-frontend-e2e"],
+  "e2e": ["adr-001-frontend-e2e"],
+  "regression": ["adr-001-frontend-e2e"]
+}
+

@@ -1,3 +1,15 @@
+---
+id: frontend-react-hook-form
+title: 프론트엔드 React Hook Form 사용 전략
+type: principle
+status: accepted
+scope: frontend
+tags: [react-hook-form, form, validation, serializer, default-values]
+priority: high
+updated: 2026-06-30
+applies_to: [frontend, cgkr_oncall]
+---
+
 # 9. 프론트엔드 React Hook Form 사용 전략
 
 ## 목적
